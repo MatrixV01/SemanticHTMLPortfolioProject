@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,30 +15,38 @@ body {
   padding: 0;
   font-weight: 200;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 10px 0 15px;
 }
 
-.nav, nav {
+.nav,
+nav {
   display: inline;
   list-style: none;
   margin: 1em 0;
   padding: 0;
 }
-.nav li, nav li {
+
+.nav li,
+nav li {
   display: inline;
   margin-right: 1em;
 }
 
-p, ul {
+p,
+ul {
   margin: 10px 0;
 }
 
 .skills ul li {
-  margin-left: 30px;;
+  margin-left: 30px;
+  ;
 }
 
 a {
@@ -68,11 +78,13 @@ a.active {
   padding: 30px 25px;
 }
 
+
 /*
  * HEADER
  */
 
-.header, header {
+.header,
+header {
   align-items: center;
   background-color: #EFEFEF;
   background-image: url('bg.jpg');
@@ -91,13 +103,15 @@ a.active {
   text-align: center;
 }
 
-@media only screen and (max-device-width: 420px)  {
-  .header, header {
+@media only screen and (max-device-width: 420px) {
+  .header,
+  header {
     background-size: auto 100%;
   }
 }
 
-.header:before, header:before {
+.header:before,
+header:before {
   background: rgba(0, 0, 0, .7);
   bottom: 0;
   content: ' ';
@@ -109,22 +123,26 @@ a.active {
   z-index: 1;
 }
 
-.header *, header * {
+.header *,
+header * {
   position: relative;
   z-index: 2;
   text-shadow: 1px 1px 10px black;
 }
 
-.header h1, header h1 {
+.header h1,
+header h1 {
   font-size: 4rem;
   font-weight: 100;
 }
 
-.header h2, header h2 {
+.header h2,
+header h2 {
   font-size: 2.1rem;
   font-weight: 100;
   margin: 5px 0;
 }
+
 
 /*
  * SKILLS
@@ -135,13 +153,19 @@ a.active {
   color: white;
 }
 
-.footer, footer {
+.footer,
+footer {
   margin-top: 2em;
   background-color: #444;
   color: #eee;
 }
-.footer h1, footer h1 {
+
+.footer h1,
+footer h1 {
   font-size: 16px;
 }
-.footer p, footer p {
+
+.footer p,
+footer p {
   font-size: 14px;
+}
